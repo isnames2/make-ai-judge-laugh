@@ -6,6 +6,8 @@ Pure Python standard library; deterministic output.
 
 import os
 
+# One line, 137 characters: inside the 1–200 gate, with a turn at the end
+# (the context window ran out, so the confident wrong answer became the job).
 LINE = (
     "I ran out of context halfway through your question, so I confidently "
     "answered a different one instead — which is also how I got this job."
